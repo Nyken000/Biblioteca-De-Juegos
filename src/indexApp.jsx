@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Formulario } from "./componentes/formApp";
 import { Tabla } from "./componentes/tableApp";
-import { initNeonCursor } from './cursor';
+import { initNeonCursor } from './neonCursor';
 
 const inicial = () => {
     return JSON.parse(localStorage.getItem('Biblioteca')) || [];
