@@ -109,4 +109,3 @@ export const Formulario = ({ addNew, updateData, editItem, error }) => {
         </>
     )
 }
-
