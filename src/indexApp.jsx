@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Formulario } from "./componentes/formApp";
 import { Tabla } from "./componentes/tableApp";
-import "./index.css"; // Asegúrate de tener tus estilos importados
+import "./index.css";
 
 // Función para inicializar los datos desde localStorage o usar un array vacío si no hay datos
 const inicial = () => {
