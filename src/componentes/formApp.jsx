@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Select from "react-select";
-import { FaExclamationTriangle } from "react-icons/fa"; // Importar el ícono de advertencia
+import { FaExclamationTriangle } from "react-icons/fa";
 
 export const Formulario = ({
   addNew,
